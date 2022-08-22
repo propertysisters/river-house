@@ -1,5 +1,28 @@
-<body>
-  <mat-toolbar>
-  </mat-toolbar>
-  <router-outlet></router-outlet>
-</body>
+<mat-toolbar class="fixed top-0 z-10" color="primary">
+	<button mat-icon-button (click)="sidenav.toggle()">
+		<fa-icon [icon]="'bars'"></fa-icon>
+	</button>
+	<span class="ml-2">The River House</span>
+	<span class="flex-auto"></span>
+	<app-social-icons></app-social-icons>
+</mat-toolbar>
+
+<mat-sidenav-container [ngClass]="responsiveService.isMobile ? 'mobile' : null">
+
+	<mat-sidenav #sidenav fixedInViewport class="page-content" >
+		<mat-nav-list>
+			<ng-container *ngFor="let button of navigationButtons">
+				<a mat-list-item [matTooltip]="button.summary" matTooltipPosition="after" [routerLink]="'.'" [fragment]="button.route">
+					<fa-icon class="mr-4" [icon]="button.icon"></fa-icon>
+					<span>{{button.title}}</span>
+				</a>
+				<mat-divider></mat-divider>
+			</ng-container>
+		</mat-nav-list>
+	</mat-sidenav>
+
+	<mat-sidenav-content class="page-content">
+		<router-outlet></router-outlet>
+	</mat-sidenav-content>
+
+</mat-sidenav-container>
