@@ -33,7 +33,10 @@ export class AppComponent
 			title: "Cabin Amenities",
 			icon: "circle-info",
 			summary: "Things to do around the cabin",
-			route: "amenities"
+			route: "amenities",
+			children:
+			[
+			]
 		},
 		{
 			title: "Checkout Checklist",
