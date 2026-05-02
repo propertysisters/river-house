@@ -16,6 +16,7 @@ import {
 import type { ComponentType } from "react";
 import hottubImage from "../../assets/images/hottub.jpg";
 import { amenities, type Amenity, type AmenityIcon } from "../../content/amenities";
+import { FireplaceRemote } from "../FireplaceRemote";
 import { Section } from "../Section";
 import { SectionHeader } from "../SectionHeader";
 import { WifiCard } from "../WifiCard";
@@ -56,10 +57,12 @@ function AmenityItem({ amenity }: { amenity: Amenity }) {
 						<p key={i}>{para}</p>
 					))}
 				</div>
+				{amenity.id === "climate" && <FireplaceRemote />}
 			</Accordion.Panel>
 		</Accordion.Item>
 	);
 }
+
 
 export function Amenities() {
 	return (

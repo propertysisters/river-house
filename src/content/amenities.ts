@@ -33,13 +33,10 @@ export const amenities: Amenity[] = [
 		id: "climate",
 		icon: "temperature",
 		title: "Heating & Cooling",
-		summary: "Heat pump thermostat plus a gas fireplace in the great room.",
+		summary: "Heat pump thermostat plus a remote-controlled gas fireplace in the great room.",
 		body: [
 			"Heat pump: set the temperature on the wall thermostat. We typically run heating around 68°F and cooling around 72°F — adjust to taste.",
-			"Gas fireplace: the thermostat on the right in the hallway controls it, plus a small on/off switch on the upper right rear of the unit. Either will light it.",
-			"Flame height adjusts behind a small door below the glass. Turn the dial labeled “flame height.”",
-			"If the fire doesn't light, the pilot is out. Instructions are in the same area as the flame-height dial.",
-			"Heads up: running the gas fireplace warms the great room, which can cause the heat pump's forced air to stop running, leaving bedrooms cold in winter.",
+			"Heads up: the fireplace heats the great room well, but it can prevent the heat pump's forced air from running, which may leave bedrooms cooler in cold weather.",
 		],
 	},
 	{
