@@ -1,13 +1,28 @@
-.root {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 0.85rem;
+.featureImage {
+	margin: 0 0 2.5rem;
+	border-radius: 18px;
+	overflow: hidden;
+	aspect-ratio: 21 / 9;
 }
 
-@media (min-width: 720px) {
-	.root {
-		grid-template-columns: 1fr 1fr;
+.featureImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center 60%;
+}
+
+@media (max-width: 600px) {
+	.featureImage {
+		aspect-ratio: 4 / 3;
+		border-radius: 14px;
 	}
+}
+
+.root {
+	display: flex;
+	flex-direction: column;
+	gap: 0.85rem;
 }
 
 .item {

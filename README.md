@@ -52,11 +52,3 @@ Deployment is automatic: push to `main` and GitHub Actions builds and deploys.
 3. Save. The next push to `main` will deploy automatically.
 
 The site is served at `https://larsolm.github.io/river-house/`.
-
-## Restoring the old Angular site
-
-The Angular version is preserved at git tag `angular-final`:
-
-```bash
-git checkout angular-final
-```

@@ -52,7 +52,7 @@ export const greaterAreaRestaurants: Restaurant[] = [
 		name: "White Pass Ski Lodge",
 		phone: "+15096723101",
 		description:
-			"Open during ski season, with eight different places to eat across the resort — including High Camp Lodge partway down the slopes. Fun spot to watch the mountain even if you’re not skiing.",
+			"Open during ski season, with eight different places to eat across the resort, including High Camp Lodge partway down the slopes. Fun spot to watch the mountain even if you're not skiing.",
 	},
 	{
 		name: "Paradise Inn Dining Room",
@@ -64,6 +64,6 @@ export const greaterAreaRestaurants: Restaurant[] = [
 		name: "Copper Creek Inn",
 		phone: "+13605692326",
 		description:
-			"A local favorite for breakfast, lunch, and dinner. Country food — beef stew, salmon, fresh trout — and the homemade blackberry pie is the thing to order. Best in summer when Skate Creek Road is open. Pair it with a Mt. Rainier loop: enter at Stevens Canyon, leave through Longmire, then it’s about two miles to Copper Creek. From there you can take Skate Creek Road (FS 52) back to Packwood.",
+			"A local favorite for breakfast, lunch, and dinner. Country food — beef stew, salmon, fresh trout — and the homemade blackberry pie is the thing to order. Best in summer when Skate Creek Road is open. Pair it with a Mt. Rainier loop: enter at Stevens Canyon, leave through Longmire, then it's about two miles to Copper Creek. From there you can take Skate Creek Road (FS 52) back to Packwood.",
 	},
 ];

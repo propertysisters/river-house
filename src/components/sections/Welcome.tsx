@@ -1,3 +1,4 @@
+import riverImage from "../../assets/images/river.jpg";
 import {
 	guideSummary,
 	welcomeIntro,
@@ -39,6 +40,14 @@ export function Welcome() {
 				</div>
 
 				<aside className={classes.aside}>
+					<figure className={classes.riverImage}>
+						<img
+							src={riverImage}
+							alt="The Cowlitz River flowing past the property"
+							loading="lazy"
+							decoding="async"
+						/>
+					</figure>
 					<AddressBlock />
 				</aside>
 			</div>

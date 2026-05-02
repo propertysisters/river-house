@@ -14,6 +14,7 @@ import {
 	type IconProps,
 } from "@tabler/icons-react";
 import type { ComponentType } from "react";
+import hottubImage from "../../assets/images/hottub.jpg";
 import { amenities, type Amenity, type AmenityIcon } from "../../content/amenities";
 import { Section } from "../Section";
 import { SectionHeader } from "../SectionHeader";
@@ -68,6 +69,15 @@ export function Amenities() {
 				title="Everything you need"
 				intro="Tap any item to expand the instructions. The internet card unlocks one-tap copying so you can join the wifi without retyping anything."
 			/>
+
+			<figure className={classes.featureImage}>
+				<img
+					src={hottubImage}
+					alt="The hot tub on the deck at The River House"
+					loading="lazy"
+					decoding="async"
+				/>
+			</figure>
 
 			<Accordion
 				multiple
