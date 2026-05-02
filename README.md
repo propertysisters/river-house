@@ -24,15 +24,15 @@ npm run preview    # preview build locally
 
 All guest-facing text lives in [`src/content/`](src/content/):
 
-| File | What it controls |
-| --- | --- |
-| `property.ts` | Property name, tagline, wifi credentials, address, Airbnb URL |
-| `welcome.ts` | Welcome section prose |
-| `amenities.ts` | Amenity cards (title, icon, instructions) |
-| `checklist.ts` | Checkout checklist items |
-| `activities.ts` | Local activities list |
-| `restaurants.ts` | Restaurant listings (name, phone, description) |
-| `navigation.ts` | Nav item labels and tooltips |
+| File             | What it controls                                              |
+| ---------------- | ------------------------------------------------------------- |
+| `property.ts`    | Property name, tagline, wifi credentials, address, Airbnb URL |
+| `welcome.ts`     | Welcome section prose                                         |
+| `amenities.ts`   | Amenity cards (title, icon, instructions)                     |
+| `checklist.ts`   | Checkout checklist items                                      |
+| `activities.ts`  | Local activities list                                         |
+| `restaurants.ts` | Restaurant listings (name, phone, description)                |
+| `navigation.ts`  | Nav item labels and tooltips                                  |
 
 ## Adding photos
 
