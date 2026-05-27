@@ -10,7 +10,7 @@ export function Checkout() {
 			<SectionHeader
 				kicker="Checkout"
 				title="Before you head out"
-				intro="A short checklist to leave the cabin ready for the next guest. No need to deep-clean — these are the small things that make a big difference."
+				intro="A short checklist to leave the cabin ready for the next guest. These are the small things that make a big difference."
 			/>
 
 			<ol className={classes.list}>
