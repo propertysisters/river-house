@@ -63,14 +63,13 @@ function AmenityItem({ amenity }: { amenity: Amenity }) {
 	);
 }
 
-
 export function Amenities() {
 	return (
 		<Section id="amenities" tone="fog">
 			<SectionHeader
 				kicker="Amenities"
 				title="Everything you need"
-				intro="Tap any item to expand the instructions. The internet card unlocks one-tap copying so you can join the wifi without retyping anything."
+				intro="Tap any item to expand the instructions."
 			/>
 
 			<figure className={classes.featureImage}>

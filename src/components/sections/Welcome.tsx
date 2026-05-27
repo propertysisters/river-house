@@ -16,7 +16,7 @@ export function Welcome() {
 			<SectionHeader
 				kicker="Welcome"
 				title="Make yourself at home"
-				intro="A short guide to the cabin and the area — written so you can skim it on the porch with a coffee in hand."
+				intro="A short guide to the cabin and the area, written so you can skim it on the porch with a coffee in hand."
 			/>
 
 			<div className={classes.layout}>
